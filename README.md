@@ -61,6 +61,34 @@ pnpm install
 
 ### 3. 配置环境变量
 
+```bash
+# Database
+DATABASE_URL=postgresql://username:password@localhost:5432/saas_db
+
+# Auth
+BETTER_AUTH_SECRET=your-secret-key-here-min-32-chars
+BETTER_AUTH_URL=http://localhost:3000
+
+# OAuth - Google
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+
+# OAuth - GitHub
+GITHUB_CLIENT_ID=your-github-client-id
+GITHUB_CLIENT_SECRET=your-github-client-secret
+
+# Stripe
+STRIPE_SECRET_KEY=sk_test_your-stripe-secret-key
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your-stripe-publishable-key
+STRIPE_WEBHOOK_SECRET=whsec_your-webhook-secret
+
+# App Config
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_APP_NAME=SaaS Template
+
+```
+
+
 复制 `.env.example` 到 `.env.local` 并填写必要的配置：
 
 \`\`\`bash

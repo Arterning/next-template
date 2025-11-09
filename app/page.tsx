@@ -75,7 +75,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
+        <div className="container flex h-16 items-center justify-between px-4 md:px-8">
           <div className="flex items-center space-x-2">
             <Rocket className="h-6 w-6" />
             <span className="font-bold text-xl">SaaS Template</span>
@@ -99,7 +99,7 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="container py-24 md:py-32">
+        <section className="container py-24 md:py-32 px-4 md:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
               快速构建您的 SaaS 应用
@@ -125,7 +125,7 @@ export default function Home() {
         </section>
 
         {/* Features Section */}
-        <section id="features" className="container py-24 bg-muted/50">
+        <section id="features" className="container py-24 bg-muted/50 px-4 md:px-8">
           <div className="mx-auto max-w-4xl text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               强大的功能
@@ -155,7 +155,7 @@ export default function Home() {
         </section>
 
         {/* Tech Stack Section */}
-        <section className="container py-24">
+        <section className="container py-24 px-4 md:px-8">
           <div className="mx-auto max-w-4xl text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               现代化技术栈
@@ -186,7 +186,7 @@ export default function Home() {
         </section>
 
         {/* Pricing Section */}
-        <section id="pricing" className="container py-24 bg-muted/50">
+        <section id="pricing" className="container py-24 bg-muted/50 px-4 md:px-8">
           <div className="mx-auto max-w-4xl text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               简单透明的定价
@@ -243,7 +243,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="container py-24">
+        <section className="container py-24 px-4 md:px-8">
           <Card className="bg-primary text-primary-foreground">
             <CardHeader className="text-center">
               <CardTitle className="text-3xl">准备开始了吗？</CardTitle>
@@ -265,7 +265,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t py-12">
-        <div className="container">
+        <div className="container px-4 md:px-8">
           <div className="grid gap-8 md:grid-cols-4">
             <div>
               <div className="flex items-center space-x-2 mb-4">
